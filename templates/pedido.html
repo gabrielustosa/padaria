@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Finalizando compra - Pães do Zé</title>
+
+</head>
+<body>
+<h1 class="p-5">Finalizando compra</h1>
+<div class="container mt-5 d-flex justify-content-center">
+    <form style="width: 30rem;" method="post" action="{% url 'finalizar' produto.id %}">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome">
+        </div>
+        <div class="form-group">
+            <label for="endereco">Endereço:</label>
+            <input type="text" class="form-control" id="endereco"  name="endereco" placeholder="Digite seu endereço">
+        </div>
+        <button type="submit" class="btn btn-primary">Finalizar compra</button>
+    </form>
+    <div class="mb-3 ml-5">
+        <div class="card" style="width: 23rem;">
+            <div class="card">
+                <img src="{{ produto.image.url }}" class="card-img-top img-fluid" alt="Imagem do Produto">
+                <div class="card-body">
+                    <h5 class="card-title">{{ produto.nome }}</h5>
+                    <p class="card-text">{{ produto.descricao }}</p>
+                    <p class="card-text"><strong>Preço:</strong> R$ {{ produto.preco }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Adicione o JavaScript do Bootstrap (opcional) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

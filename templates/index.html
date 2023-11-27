@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Página Inicial - Pães do Zé</title>
+</head>
+<body>
+<h1 class="text-center ">Bem-vindo à Página Inicial</h1>
+
+<h1 class="p-5 h2">Produtos</h1>
+<div class="container pt-4 g-2">
+    <div class="row row-cols-4 row-cols-lg-5 g-2 g-lg-3 justify-content-center">
+        {% for produto in produtos %}
+            <div class="col p-5">
+                <div class="card" style="width: 23rem;">
+                    <div class="card">
+                        <img src="{{ produto.image.url }}" class="card-img-top img-fluid" alt="Imagem do Produto">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ produto.nome }}</h5>
+                            <p class="card-text">{{ produto.descricao }}</p>
+                            <p class="card-text"><strong>Preço:</strong> R$ {{ produto.preco }}</p>
+                        </div>
+                        <a href="{% url 'pedido' produto.id %}" type="button" class="btn btn-primary">
+                            Comprar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

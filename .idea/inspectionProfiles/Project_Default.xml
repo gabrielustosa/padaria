@@ -1,0 +1,231 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DjangoUnresolvedUrlInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="417" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="EmptyDirectory" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlNonExistentInternetResource" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlPresentationalElement" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="HtmlRequiredSummaryAttribute" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="HtmlRequiredTitleAttribute" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="17">
+            <item index="0" class="java.lang.String" itemvalue="hx-get" />
+            <item index="1" class="java.lang.String" itemvalue="hx-trigger" />
+            <item index="2" class="java.lang.String" itemvalue="hx-swap" />
+            <item index="3" class="java.lang.String" itemvalue="hx-target" />
+            <item index="4" class="java.lang.String" itemvalue="hx-post" />
+            <item index="5" class="java.lang.String" itemvalue="hx-parent" />
+            <item index="6" class="java.lang.String" itemvalue="hx-error" />
+            <item index="7" class="java.lang.String" itemvalue="parent" />
+            <item index="8" class="java.lang.String" itemvalue="modal-close" />
+            <item index="9" class="java.lang.String" itemvalue="_" />
+            <item index="10" class="java.lang.String" itemvalue="hx-indicator" />
+            <item index="11" class="java.lang.String" itemvalue="data" />
+            <item index="12" class="java.lang.String" itemvalue="datepicker" />
+            <item index="13" class="java.lang.String" itemvalue="datepicker-autohide" />
+            <item index="14" class="java.lang.String" itemvalue="inline-datepicker" />
+            <item index="15" class="java.lang.String" itemvalue="url" />
+            <item index="16" class="java.lang.String" itemvalue="do-nothing" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="li" />
+            <item index="7" class="java.lang.String" itemvalue="span" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://0.0.0.0" />
+          <option value="http://www.w3.org/" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/" />
+          <option value="http://xmlns.jcp.org/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.springframework.org/tags" />
+          <option value="http://www.springframework.org/security/tags" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.jboss.org/j2ee/schema/" />
+          <option value="http://www.jboss.com/xml/ns/" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://activemq.apache.org/schema/" />
+          <option value="http://schema.cloudfoundry.org/spring/" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://primefaces.org/ui" />
+          <option value="http://tiles.apache.org/" />
+          <option value="http://" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JSMethodCanBeStatic" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JSValidateTypes" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="LongLine" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyArgumentEqualDefaultInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyAugmentAssignmentInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyBehaveInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyClassicStyleClassInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyDataclassInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMandatoryEncodingInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyMissingTypeHintsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="65">
+            <item index="0" class="java.lang.String" itemvalue="django-allauth" />
+            <item index="1" class="java.lang.String" itemvalue="django-bootstrap-v5" />
+            <item index="2" class="java.lang.String" itemvalue="crispy-tailwind" />
+            <item index="3" class="java.lang.String" itemvalue="chromaprint" />
+            <item index="4" class="java.lang.String" itemvalue="parametrized" />
+            <item index="5" class="java.lang.String" itemvalue="parameterized" />
+            <item index="6" class="java.lang.String" itemvalue="pytest" />
+            <item index="7" class="java.lang.String" itemvalue="graphlib" />
+            <item index="8" class="java.lang.String" itemvalue="mkdocs-material" />
+            <item index="9" class="java.lang.String" itemvalue="pytest-django" />
+            <item index="10" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="11" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="12" class="java.lang.String" itemvalue="mslex" />
+            <item index="13" class="java.lang.String" itemvalue="markupsafe" />
+            <item index="14" class="java.lang.String" itemvalue="mccabe" />
+            <item index="15" class="java.lang.String" itemvalue="certifi" />
+            <item index="16" class="java.lang.String" itemvalue="mergedeep" />
+            <item index="17" class="java.lang.String" itemvalue="iniconfig" />
+            <item index="18" class="java.lang.String" itemvalue="asgiref" />
+            <item index="19" class="java.lang.String" itemvalue="click" />
+            <item index="20" class="java.lang.String" itemvalue="mkdocs-material-extensions" />
+            <item index="21" class="java.lang.String" itemvalue="psutil" />
+            <item index="22" class="java.lang.String" itemvalue="jinja2" />
+            <item index="23" class="java.lang.String" itemvalue="pyyaml" />
+            <item index="24" class="java.lang.String" itemvalue="regex" />
+            <item index="25" class="java.lang.String" itemvalue="ghp-import" />
+            <item index="26" class="java.lang.String" itemvalue="platformdirs" />
+            <item index="27" class="java.lang.String" itemvalue="pymdown-extensions" />
+            <item index="28" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="29" class="java.lang.String" itemvalue="griffe" />
+            <item index="30" class="java.lang.String" itemvalue="idna" />
+            <item index="31" class="java.lang.String" itemvalue="pathspec" />
+            <item index="32" class="java.lang.String" itemvalue="pluggy" />
+            <item index="33" class="java.lang.String" itemvalue="mypy-extensions" />
+            <item index="34" class="java.lang.String" itemvalue="mkdocs" />
+            <item index="35" class="java.lang.String" itemvalue="pycodestyle" />
+            <item index="36" class="java.lang.String" itemvalue="requests" />
+            <item index="37" class="java.lang.String" itemvalue="flake8" />
+            <item index="38" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="39" class="java.lang.String" itemvalue="taskipy" />
+            <item index="40" class="java.lang.String" itemvalue="pytest-cov" />
+            <item index="41" class="java.lang.String" itemvalue="markdown" />
+            <item index="42" class="java.lang.String" itemvalue="tomli" />
+            <item index="43" class="java.lang.String" itemvalue="urllib3" />
+            <item index="44" class="java.lang.String" itemvalue="pygments" />
+            <item index="45" class="java.lang.String" itemvalue="coverage" />
+            <item index="46" class="java.lang.String" itemvalue="six" />
+            <item index="47" class="java.lang.String" itemvalue="pyflakes" />
+            <item index="48" class="java.lang.String" itemvalue="black" />
+            <item index="49" class="java.lang.String" itemvalue="tzdata" />
+            <item index="50" class="java.lang.String" itemvalue="mkdocstrings" />
+            <item index="51" class="java.lang.String" itemvalue="packaging" />
+            <item index="52" class="java.lang.String" itemvalue="pyyaml-env-tag" />
+            <item index="53" class="java.lang.String" itemvalue="django" />
+            <item index="54" class="java.lang.String" itemvalue="watchdog" />
+            <item index="55" class="java.lang.String" itemvalue="blue" />
+            <item index="56" class="java.lang.String" itemvalue="colorama" />
+            <item index="57" class="java.lang.String" itemvalue="mkdocstrings-python" />
+            <item index="58" class="java.lang.String" itemvalue="isort" />
+            <item index="59" class="java.lang.String" itemvalue="mkdocs-autorefs" />
+            <item index="60" class="java.lang.String" itemvalue="django-ordered-model" />
+            <item index="61" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="62" class="java.lang.String" itemvalue="ninja" />
+            <item index="63" class="java.lang.String" itemvalue="jose" />
+            <item index="64" class="java.lang.String" itemvalue="pytube" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E203" />
+          <option value="E131" />
+          <option value="E722" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="range" />
+          <option value="format" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="dict.__getitem__" />
+          <option value="str.__setitem__" />
+          <option value="object.form_valid" />
+          <option value="object.get_queryset" />
+          <option value="courses.views.OwnerMixin.request" />
+          <option value="courses.views.OwnerEditMixin.request" />
+          <option value="card.Card.*" />
+          <option value="property.setter" />
+          <option value="lists.models.Item.objects" />
+          <option value="lists.models.List.objects" />
+          <option value="udemy.apps.core.fields.ModelSerializer.*" />
+          <option value="udemy.apps.core.fields.RelatedObjectMixin.*" />
+          <option value="udemy.apps.core.fields.DynamicModelFieldsMixin.*" />
+          <option value="udemy.apps.core.fields.CreateAndUpdateOnlyFieldsMixin.*" />
+          <option value="object.*" />
+          <option value="udemy.apps.core.fields.PermissionForFieldMixin.*" />
+          <option value="udemy.apps.core.annotations.AnnotationBase.annotation_fields" />
+          <option value="udemy.apps.core.mixins.related_object.RelatedObjectViewMixin.Meta" />
+          <option value="drf_extra_utils.annotations.serializer.AnnotationFieldMixin.Meta" />
+          <option value="str.get" />
+          <option value="str.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="QodanaServiceMessage" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="TodoComment" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
